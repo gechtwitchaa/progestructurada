@@ -10,3 +10,10 @@ struct Estudiante {
 
 
 typedef struct Estudiante EstudianteAlias;
+
+int main() {
+
+    EstudianteAlias estudiante1;
+
+
+  
