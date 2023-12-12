@@ -23,4 +23,12 @@ int main() {
 
     struct Estudiante copiaEstudiante = copiarEstudiante(estudianteOriginal);
 
-   
+
+    printf("Datos del estudiante original:\n");
+    printf("Nombre: %s\nEdad: %d\nPromedio: %.2f\n", estudianteOriginal.nombre, estudianteOriginal.edad, estudianteOriginal.promedio);
+
+    printf("\nDatos del estudiante copiado:\n");
+    printf("Nombre: %s\nEdad: %d\nPromedio: %.2f\n", copiaEstudiante.nombre, copiaEstudiante.edad, copiaEstudiante.promedio);
+
+    return 0;
+}
