@@ -14,3 +14,9 @@ void imprimirEstudiante(struct Estudiante estudiante) {
     printf("Edad: %d\n", estudiante.edad);
     printf("Promedio: %.2f\n", estudiante.promedio);
 }
+
+int main() {
+
+    struct Estudiante estudiante1;
+
+  
