@@ -32,4 +32,8 @@ int main() {
         estudiante2->promedio = 9;
     }
 
+
+    struct Estudiante *punteroEstudiante;
+    punteroEstudiante = &estudiante1;
+
  
