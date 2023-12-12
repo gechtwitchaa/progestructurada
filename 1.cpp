@@ -36,4 +36,7 @@ int main() {
     struct Estudiante *punteroEstudiante;
     punteroEstudiante = &estudiante1;
 
- 
+
+    struct Estudiante listaEstudiantes[10];
+
+   
