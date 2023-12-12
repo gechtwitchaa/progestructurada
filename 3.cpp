@@ -7,3 +7,12 @@ struct Estudiante {
     int edad;
     float promedio;
 };
+
+struct Estudiante copiarEstudiante(struct Estudiante original) {
+    struct Estudiante copia;
+    strcpy(copia.nombre, original.nombre);
+    copia.edad = original.edad;
+    copia.promedio = original.promedio;
+    return copia;
+}
+
