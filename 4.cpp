@@ -21,4 +21,9 @@ int main() {
     estudiante1.promedio = 8;
 
 
- 
+    printf("Nombre: %s\n", estudiante1.nombre);
+    printf("Edad: %d\n", estudiante1.edad);
+    printf("Promedio: %.2f\n", estudiante1.promedio);
+
+    return 0;
+}
