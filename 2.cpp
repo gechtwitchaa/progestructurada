@@ -8,3 +8,7 @@ union Dato {
     char cadena[50];
 };
 
+int main() {
+    
+    union Dato dato;
+
