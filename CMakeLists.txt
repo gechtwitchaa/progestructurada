@@ -5,3 +5,5 @@ set(CMAKE_CXX_STANDARD 14)
 
 add_executable(progestructurada
         1.cpp)
+add_executable(2 2.cpp)
+
