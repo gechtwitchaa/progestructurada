@@ -16,3 +16,8 @@ struct Estudiante copiarEstudiante(struct Estudiante original) {
     return copia;
 }
 
+int main() {
+
+    struct Estudiante estudianteOriginal = {"Alberto", 18, 8};
+
+    
