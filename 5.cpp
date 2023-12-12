@@ -31,7 +31,7 @@ void imprimirEstudiantePorDireccion(struct Estudiante *est) {
 int main() {
     struct Estudiante estudiante = {"Alberto", 18, 8};
 
-   
+
     printf("Imprimir por valor:\n");
     imprimirEstudiantePorValor(estudiante);
 

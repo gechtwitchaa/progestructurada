@@ -22,14 +22,3 @@ void imprimirEstudiante(struct Estudiante *est) {
     printf("Promedio: %.2f\n", est->promedio);
 }
 
-int main() {
-
-    struct Estudiante juan;
-    inicializarEstudiante(&juan, "Alberto", 18, 8);
-
-
-    printf("Detalles del estudiante:\n");
-    imprimirEstudiante(&juan);
-
-    return 0;
-}
