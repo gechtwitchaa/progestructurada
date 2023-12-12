@@ -205,6 +205,39 @@ build 5.exe: CXX_EXECUTABLE_LINKER__5_Debug CMakeFiles/5.dir/5.cpp.obj
   TARGET_IMPLIB = lib5.dll.a
   TARGET_PDB = 5.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 5.2
+
+
+#############################################
+# Order-only phony target for 5.2
+
+build cmake_object_order_depends_target_5.2: phony || CMakeFiles/5.2.dir
+
+build CMakeFiles/5.2.dir/5.2.cpp.obj: CXX_COMPILER__5.2e2_unscanned_Debug C$:/Users/alber_wzgn3ys/Documents/GitHub/progestructurada/5.2.cpp || cmake_object_order_depends_target_5.2
+  DEP_FILE = CMakeFiles\5.2.dir\5.2.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\5.2.dir
+  OBJECT_FILE_DIR = CMakeFiles\5.2.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 5.2
+
+
+#############################################
+# Link the executable 5.2.exe
+
+build 5.2.exe: CXX_EXECUTABLE_LINKER__5.2e2_Debug CMakeFiles/5.2.dir/5.2.cpp.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = CMakeFiles\5.2.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 5.2.exe
+  TARGET_IMPLIB = lib5.2.dll.a
+  TARGET_PDB = 5.2.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -239,6 +272,8 @@ build 4: phony 4.exe
 
 build 5: phony 5.exe
 
+build 5.2: phony 5.2.exe
+
 build progestructurada: phony progestructurada.exe
 
 # =============================================================================
@@ -249,7 +284,7 @@ build progestructurada: phony progestructurada.exe
 #############################################
 # Folder: C:/Users/alber_wzgn3ys/Documents/GitHub/progestructurada/cmake-build-debug
 
-build all: phony progestructurada.exe 2.exe 3.exe 4.exe 5.exe
+build all: phony progestructurada.exe 2.exe 3.exe 4.exe 5.exe 5.2.exe
 
 # =============================================================================
 # Built-in targets
