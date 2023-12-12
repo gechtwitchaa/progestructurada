@@ -20,4 +20,7 @@ int main() {
 
     struct Estudiante estudianteOriginal = {"Alberto", 18, 8};
 
-    
+
+    struct Estudiante copiaEstudiante = copiarEstudiante(estudianteOriginal);
+
+   
