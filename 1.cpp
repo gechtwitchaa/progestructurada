@@ -24,4 +24,12 @@ int main() {
     estudiante1.edad = 18;
     estudiante1.promedio = 8;
 
+
+    struct Estudiante *estudiante2 = (struct Estudiante *)malloc(sizeof(struct Estudiante));
+    if (estudiante2 != NULL) {
+        strcpy(estudiante2->nombre, "Eden");
+        estudiante2->edad = 19;
+        estudiante2->promedio = 9;
+    }
+
  
