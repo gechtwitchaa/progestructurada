@@ -39,4 +39,17 @@ int main() {
 
     struct Estudiante listaEstudiantes[10];
 
-   
+
+    listaEstudiantes[0] = estudiante1;
+    listaEstudiantes[1] = *estudiante2;
+
+
+    printf("Datos de los estudiantes en la lista:\n");
+    imprimirEstudiante(listaEstudiantes[0]);
+    imprimirEstudiante(listaEstudiantes[1]);
+
+    listaEstudiantes[1] = estudiante1;
+    free(estudiante2);
+
+    return 0;
+}
