@@ -12,7 +12,7 @@ int main() {
 
     union Dato dato;
 
-   
+
     dato.entero = 10;
     printf("Valor entero: %d\n", dato.entero);
 
